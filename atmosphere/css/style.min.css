@@ -1,30 +1,44 @@
 @charset "UTF-8";
 @font-face {
-  font-family: "Gilroy-Bold";
-  font-display: swap;
-  src: url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff");
+  font-family: "Lato";
+  src: url("../fonts/Lato-Light.eot");
+  src: local("☺"), url("../fonts/Lato-Light.woff") format("woff"), url("../fonts/Lato-Light.ttf") format("truetype"), url("../fonts/Lato-Light.svg") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Regular.eot");
+  src: local("☺"), url("../fonts/Lato-Regular.woff") format("woff"), url("../fonts/Lato-Regular.ttf") format("truetype"), url("../fonts/Lato-Regular.svg") format("svg");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: "Gilroy-Medium";
-  font-display: swap;
-  src: url("../fonts/Gilroy-Medium.woff2") format("woff2"), url("../fonts/Gilroy-Medium.woff") format("woff");
-  font-weight: 400;
+  font-family: "Lato";
+  src: url("../fonts/Lato-Medium.eot");
+  src: local("☺"), url("../fonts/Lato-Medium.woff") format("woff"), url("../fonts/Lato-Medium.ttf") format("truetype"), url("../fonts/Lato-Medium.svg") format("svg");
+  font-weight: 500;
   font-style: normal;
 }
 @font-face {
-  font-family: "Gilroy-SemiBold";
-  font-display: swap;
-  src: url("../fonts/Gilroy-SemiBold.woff2") format("woff2"), url("../fonts/Gilroy-SemiBold.woff") format("woff");
-  font-weight: 400;
+  font-family: "Lato";
+  src: url("../fonts/Lato-Semibold.eot");
+  src: local("☺"), url("../fonts/Lato-Semibold.woff") format("woff"), url("../fonts/Lato-Semibold.ttf") format("truetype"), url("../fonts/Lato-Semibold.svg") format("svg");
+  font-weight: 600;
   font-style: normal;
 }
 @font-face {
-  font-family: "Gilroy-Regular";
-  font-display: swap;
-  src: url("../fonts/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy-Regular.woff") format("woff");
-  font-weight: 400;
+  font-family: "Lato";
+  src: url("fonts/Lato-Bold.eot");
+  src: local("☺"), url("../fonts/Lato-Bold.woff") format("woff"), url("../fonts/Lato-Bold.ttf") format("truetype"), url("../fonts/Lato-Bold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Heavy.eot");
+  src: local("☺"), url("../fonts/Lato-Heavy.woff") format("woff"), url("../fonts/Lato-Heavy.ttf") format("truetype"), url("../fonts/Lato-Heavy.svg") format("svg");
+  font-weight: 900;
   font-style: normal;
 }
 * {
@@ -61,7 +75,7 @@ body {
 
 body {
   line-height: 1;
-  font-family: "";
+  font-family: "Lato";
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -70,7 +84,7 @@ body {
 input,
 button,
 textarea {
-  font-family: "";
+  font-family: "Lato";
   font-size: inherit;
 }
 
@@ -126,7 +140,7 @@ h6 {
 */
 body {
   font-weight: 400;
-  color: #000;
+  color: #161615;
   background: #333;
 }
 body a {
@@ -138,22 +152,22 @@ body._lock {
 }
 
 h1 {
-  font-size: 35px;
-  font-weight: 500;
-  line-height: 132%;
-  line-height: 38px;
+  font-size: 66px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 120%;
 }
 
 h2 {
-  font-size: 32px;
-  font-weight: 500;
-  line-height: 38px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 120%;
 }
 
 h3 {
-  font-size: 28px;
-  font-weight: 500;
-  line-height: 38px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 120%;
 }
 
 h4 {
@@ -163,9 +177,22 @@ h4 {
 }
 
 .title {
-  text-align: center;
-  color: #222222;
-  margin-bottom: 38px;
+  margin-bottom: 30px;
+}
+.title::before {
+  content: "";
+  float: left;
+  width: 161px;
+  height: 5px;
+  background: #69A71A;
+  margin-bottom: 30px;
+}
+
+.title-block {
+  font-size: 66px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 120%;
 }
 
 @media (max-width: 768px) {
@@ -178,11 +205,11 @@ h4 {
   }
 }
 .wrapper {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   min-height: 100%;
   overflow: hidden;
-  display: flex;
-  flex-direction: column;
 }
 ._container {
   max-width: 1170px;
@@ -200,14 +227,14 @@ h4 {
   align-items: center;
   text-align: center;
   padding: 6px 8px;
-  min-width: 144px;
-  min-height: 36px;
+  min-width: 139px;
+  min-height: 40px;
   font-family: "Lato";
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 400;
-  color: #000;
-  background: #FFE417;
-  border-radius: 5px;
+  color: #fff;
+  border-radius: 20px;
+  background: #69a71a;
 }
 .btn.fw {
   width: 100%;
@@ -362,13 +389,14 @@ textarea:focus {
 .input {
   display: flex;
   width: 100%;
-  height: 30px;
-  padding: 0px 15px;
-  border-radius: 5px;
-  border: 1px solid #000;
+  height: 40px;
+  padding: 0px 25px;
+  background: transparent;
+  border: 1px solid #69a71a;
+  border-radius: 20px;
 }
 .input._focus {
-  background: grey;
+  background: #D2D1D1;
 }
 .input._error {
   border: 1px solid red;
@@ -847,6 +875,43 @@ body.ie ._ibg img {
 
 .swiper-button-lock {
   display: none !important;
+}
+
+.swiper-button {
+  position: absolute;
+  top: 28%;
+  z-index: 5000;
+  width: 43px;
+  height: 43px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-button:before {
+  content: "";
+  float: left;
+  flex: 0 0 8px;
+  height: 12px;
+  background-size: 100%;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.swiper-button-next {
+  left: 2%;
+}
+.swiper-button-next:before {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iOCIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDggMTIiPg0KICA8aW1hZ2UgaWQ9ImNoZXZyb24tcmlnaHQiIHdpZHRoPSI4IiBoZWlnaHQ9IjEyIiB4bGluazpocmVmPSJkYXRhOmltYWdlL3BuZztiYXNlNjQsaVZCT1J3MEtHZ29BQUFBTlNVaEVVZ0FBQUFnQUFBQU1DQVlBQUFCZm52eWRBQUFBQkhOQ1NWUUlDQWdJZkFoa2lBQUFBRTVKUkVGVUdGZGovUC8vUHdNVzBBRVU0d2ZpTEVZc0NrQ1M1VkJOOXVnS2tDV3pnSXFtSXl2QWtBU1pBbE9BVlJLbUFLY2swUXBBQ3ZGYUFRc0d2STdFcVloUVFGbGlVd0J6RTRpdUFBQm9MVGhndUxFelFRQUFBQUJKUlU1RXJrSmdnZz09Ii8+DQo8L3N2Zz4NCg==");
+}
+
+.swiper-button-prev {
+  right: 2%;
+}
+.swiper-button-prev:before {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iOCIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDggMTIiPg0KICA8aW1hZ2UgaWQ9ImNoZXZyb24tcmlnaHQiIHdpZHRoPSI4IiBoZWlnaHQ9IjEyIiB4bGluazpocmVmPSJkYXRhOmltYWdlL3BuZztiYXNlNjQsaVZCT1J3MEtHZ29BQUFBTlNVaEVVZ0FBQUFnQUFBQU1DQVlBQUFCZm52eWRBQUFBQkhOQ1NWUUlDQWdJZkFoa2lBQUFBRXRKUkVGVUdGZGovUC8vUHdNUWRBQXhQeEJuQVRGWUFBWVlnUW9zZ0p6alVJRVo2SXBBQ2tCeW1VQThEWnNpbUFLY2lwQVZZRldFcmdCREVja0tNQnhMdENQeGVwT29nTUlaMUFEcjlVRVpZdlZ1b3dBQUFBQkpSVTVFcmtKZ2dnPT0iLz4NCjwvc3ZnPg0K");
 }
 
 ._tabs-item {
@@ -3262,22 +3327,17 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   background: #FCA01F;
 }
 
-.page-recurring {
-  padding-bottom: 150px;
-}
-
 .recurring {
-  padding-top: 27px;
+  padding-top: 50px;
 }
 
-.recurring h1,
 .recurring h2 {
-  margin-bottom: 28px;
+  margin-bottom: 55px;
 }
 
 .page {
   flex: 1 1 auto;
-  padding-top: 80px;
+  padding-bottom: 50px;
 }
 
 @media (max-width: 1200px) {

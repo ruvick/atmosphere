@@ -25,14 +25,14 @@
 	align-items: center;
 	text-align: center;
 	padding: 6px 8px;
-	min-width: 144px;
-	min-height: 36px;
+	min-width: 139px;
+	min-height: 40px;
 	font-family: 'Lato';
-	font-size: 12px;
+	font-size: 16px;
 	font-weight: 400;
-	color: #000;
-	background: #FFE417;
-	border-radius: 5px;
+	color: #fff;
+	border-radius: 20px;
+	background: #69a71a;	
 	&:hover{}
 	&.fw{width: 100%;}  
 }
@@ -190,12 +190,14 @@ textarea {
 .input {
 	display: flex;
 	width: 100%;
-	height: 30px;
-	padding: 0px 15px;
-	border-radius: 5px;
-	border: 1px solid #000;
+	height: 40px;
+	padding: 0px 25px;
+	background: transparent;
+	border: 1px solid #69a71a;
+	border-radius: 20px;
+	
 	&._focus {
-		background: grey;
+		background: #D2D1D1;
 	}
 	&._error {
 		border: 1px solid red;
