@@ -8,6 +8,13 @@
 //<Подключаем шрифты>=======================================================================================
 //&display=swap&subset=cyrillic-ext
 // @import "fonts";
+@font-face {
+	font-family: 'MyriadPro';
+	src: url('../fonts/MyriadPro.eot');
+	src: local('☺'), url('../fonts/MyriadPro.woff') format('woff'), url('../fonts/MyriadPro.ttf') format('truetype'), url('../fonts/MyriadPro.svg') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
 
 @font-face { 
 	font-family: "Lato";

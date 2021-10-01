@@ -1,5 +1,12 @@
 @charset "UTF-8";
 @font-face {
+  font-family: "MyriadPro";
+  src: url("../fonts/MyriadPro.eot");
+  src: local("☺"), url("../fonts/MyriadPro.woff") format("woff"), url("../fonts/MyriadPro.ttf") format("truetype"), url("../fonts/MyriadPro.svg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
   font-family: "Lato";
   src: url("../fonts/Lato-Light.eot");
   src: local("☺"), url("../fonts/Lato-Light.woff") format("woff"), url("../fonts/Lato-Light.ttf") format("truetype"), url("../fonts/Lato-Light.svg") format("svg");
