@@ -62,23 +62,23 @@ if (sliderScrollItems.length > 0) {
 function sliders_bild_callback(params) { }
 
 // Сюда пишем класс нашего слайдера и меняем переменную
-let slider = new Swiper('.slider', {
+let slider = new Swiper('.slider-team', {
 	// effect: 'fade',
-	autoplay: {
-		delay: 3000,
-		disableOnInteraction: false,
-	},
+	// autoplay: {
+	// 	delay: 3000,
+	// 	disableOnInteraction: false,
+	// },
 
 	observer: true,
 	observeParents: true,
-	slidesPerView: 1,
+	slidesPerView: 4,
 	spaceBetween: 0,
-	autoHeight: true,
+	// autoHeight: true,
 	speed: 2000,
-	//touchRatio: 0,
-	//simulateTouch: false,
+	// touchRatio: 0,
+	// simulateTouch: false,
 	loop: true,
-	//preloadImages: false,
+	// preloadImages: false,
 	//lazy: true,
 	// Dotts
 	//pagination: {

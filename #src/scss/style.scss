@@ -100,7 +100,7 @@ $mainColor: #161615;
 body {
 	font-weight: 400;
 	color: $mainColor;
-	background: #333;
+	line-height: 19.2px;
 	a {
 		font-family: "Lato";
 		color: #1a1818;
@@ -131,6 +131,8 @@ h4 {
 	line-height: 33.6 / 28 *100%;}
 	
 	.title {
+		display: flex;
+    flex-direction: column-reverse;
 		margin-bottom: 30px;
 	&::before {
 		content: '';
@@ -138,7 +140,7 @@ h4 {
 		width: 161px;
 		height: 5px;
 		background: #69A71A;
-		margin-bottom: 30px;
+		margin-top: 15px;
 	}
 }
 
@@ -199,8 +201,8 @@ h4 {
 //@import "baguetteBox";
 // @import "fancybox.min";
 //@import "pagging";
-// @import "map";
-// @import "slider";
+@import "map";
+@import "slider";
 // @import "collection";
 @import "tippy";
 @import "nouislider";
@@ -214,7 +216,7 @@ h4 {
 .page {
 	flex: 1 1 auto;
 	// padding: 35px 0; 
-	padding-bottom: 50px;
+	padding-bottom: 60px;
 }
 //===================================================================================================================================
 
@@ -300,6 +302,198 @@ h4 {
   width: 31px;
   height: 180px;
 }
+//===================================================================================================================================
+
+.about {
+	padding: 80px 0 32px 0;
+}
+
+.about__row {
+	position: relative;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.about__item {
+	position: relative;
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 54px 116px;
+	flex: 0 1 49.8%;
+	height: 370px;
+	text-align: center;
+	margin-bottom: 5px;
+	p {
+		position: relative;
+		z-index: 5;
+		color: #fff;
+	}
+}
+
+.about__item:nth-child(2) {
+	flex: 0 1 50%;
+	padding-top: 165px;
+	background-image: url('../img/about/01.jpg');
+}
+.about__item:nth-child(3) {
+	flex: 0 1 50%;
+	padding-top: 165px;
+	background-image: url('../img/about/02.jpg');
+}
+.about__item:nth-child(4) {
+	background-image: url('../img/about/03.jpg');
+}
+.about__item:nth-child(5) {
+	background-image: url('../img/about/04.jpg');
+}
+
+.about__title {
+	position: relative;
+	z-index: 5;
+	margin-bottom: 15px;
+}
+
+.about__title-center {
+	position: absolute;
+	top: 10%;
+	left: 37.5%;
+	z-index: 5;
+}
+
+.nuar_blk {
+	background-color: #00000065;
+}
+//===================================================================================================================================
+
+.team {
+	padding: 32px 0;
+}
+
+.team p {
+	margin-bottom: 26px;
+}
+
+.team__row {
+	justify-content: space-between;
+}
+
+.team-card {
+	// margin: 0 -8.5px;
+	justify-content: space-between;
+	&__body {
+		flex-direction: column;
+		flex: 0 1 24%;
+		padding-bottom: 15px;
+		background: #fff;
+		border: 1px solid #e7ebee;
+		margin: 0 7.5px;
+		h3 {
+			display: flex;
+			flex-direction: column;
+			&:after {
+				content: '';
+				float: left;
+				width: 80px;
+				height: 1px;
+				background: #69A71A;
+				margin-top: 25px;
+				margin-bottom: 22px;
+			}
+		}
+	}
+	&__img {
+		position: relative;
+    flex: 0 1 345px;
+    max-height: 507px;
+		// overflow: hidden;
+		img {
+			-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    	filter: grayscale(100%);
+		}
+	}
+	&__text {
+		padding: 22px 0px 0 0;
+	}
+
+		&__descp {
+			margin-bottom: 0 !important;
+	}
+
+	&__contact {
+		flex-direction: column;
+	}
+
+}
+//===================================================================================================================================
+
+.application {
+	padding: 32px 0;
+}
+
+.application__form p {
+	font-size: 14px;
+	line-height: 16.8px;
+	&:before {
+	content: '*';
+	float: left;
+	height: 30px;
+	margin-right: 10px;
+	}
+}
+
+.application__line {
+	input {
+		display: inline-block;
+		max-width: 380px;
+		width: 100%;
+		margin-right: 36px;
+		margin-bottom: 30px;
+	}
+}
+//===================================================================================================================================
+
+.contacts-sec {
+	padding: 32px 0;
+}
+
+.contacts-sec__map {
+	height: 370px;
+	border: 1px solid #69a71a;
+	overflow: hidden;
+	margin-bottom: 55px;
+}
+
+.contacts-sec__row {
+	justify-content: space-between;
+}
+
+.contacts-sec__item {
+	ul {
+		margin-bottom: 39px;
+	}
+	ul li {
+		font-size: 20px;
+		line-height: 24px;
+		font-weight: 600;
+		&:first-child {
+			margin-bottom: 20px;
+		}
+	}
+}
+.contacts-sec__phone {
+	display: block;
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 700;
+	margin-bottom: 14px;
+}
+
+.contacts-sec__soc-block-icon {
+	width: 215px;
+}
+
+
 //</ОСНОВНОЙ БЛОК>====================================================================================================
 
 //<Адаптив>===========================================================================================================================================
