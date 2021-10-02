@@ -192,7 +192,7 @@ h4 {
   content: "";
   float: left;
   width: 161px;
-  height: 5px;
+  height: 1px;
   background: #69A71A;
   margin-top: 15px;
 }
@@ -3343,7 +3343,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .recurring {
-  padding-top: 50px;
+  padding-top: 45px;
 }
 
 .recurring h2 {
@@ -3505,7 +3505,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   z-index: 5;
 }
 
-.nuar_blk {
+.about__item .nuar_blk {
   background-color: #00000065;
 }
 
@@ -3630,6 +3630,37 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .contacts-sec__soc-block-icon {
   width: 215px;
+}
+
+.info-wrap-sec {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  min-height: 640px;
+  padding: 93px 0;
+  background-position: center;
+  background-image: url("../img/index-bg.jpg");
+}
+
+.info-wrap-sec__container {
+  flex: 1 1 auto;
+  z-index: 5;
+}
+
+.info-wrap-sec__subtitle {
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.info-wrap-sec__btn {
+  min-width: 262.65px;
+  margin-top: 53px;
+}
+
+.stock-sec {
+  background-image: url("../img/stock-bg.jpg");
 }
 
 @media (max-width: 1440px) {

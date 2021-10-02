@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('_head.html',{
+	"title":"Акции"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('_header.html',{})
+		<main class="page">
+
+			<section id="info-wrap-sec" class="info-wrap-sec stock-sec _bgi">
+				<div class="info-wrap-sec__nuar_blk nuar_blk"></div>
+				<div class="info-wrap-sec__container _container">
+					<h1 class="title">АКЦИИ</h1>
+					<p class="info-wrap-sec__subtitle">
+						Самые выгодные предложения от <br>
+						фитнес клуба Atmosfera
+					</p>
+					<a href="#" class="info-wrap-sec__btn btn">Связаться с менеджером</a>
+				</div>
+				<div class="info-index__soc-block-icon soc-block-icon">
+					<a href="#" class="soc-block-icon-link soc-icon-1"></a>
+					<a href="#" class="soc-block-icon-link soc-icon-2"></a>
+					<a href="#" class="soc-block-icon-link soc-icon-3"></a>
+					<a href="#" class="soc-block-icon-link soc-icon-4"></a>
+				</div>
+			</section>
+
+			<section id="recurring" class="recurring">
+				<div class="_container">
+					<h2></h2>
+					
+				</div>
+			</section>
+
+			<section id="application" class="application">
+				<div class="_container">
+					<h2 class="title">Оставьте заявку и мы Вам перезвоним:</h2>
+					<form action="#" class="application__form form">
+						<div class="application__line form__line">
+							<input id="name" autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="Имя"
+							class="input _req">
+							<input id="tel2" autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="Телефон"
+							class="input _phone _req">
+							<button type="submit" class="form__btn btn">Подробнее</button>
+						</div>
+						<p>
+							Нажимая на кнопку «Отправить» Вы принимаете условия политики конфиденциальности <br>
+							в отношении обработки персональных данных
+						</p>
+					</form>
+				</div>
+			</section>
+
+			<section id="contacts-sec" class="contacts-sec">
+				<div class="_container">
+					<div id="map" class="contacts-sec__map"></div>
+					<div class="contacts-sec__row d-flex">
+						<div class="contacts-sec__item">
+							<ul>
+								<li>Адрес:</li>
+								<li>Курская область,</li>
+								<li>г. Железногорск,</li>
+								<li>ул. Гайдара, д. 5</li>
+							</ul>
+						</div>
+						<div class="contacts-sec__item">
+							<ul>
+								<li>Часы работы клуба:</li>
+								<li>будние: 07:30 – 22:00,</li>
+								<li>выходные: 08:00 – 21:00</li>
+							</ul>
+						</div>
+						<div class="contacts-sec__item">
+							<ul>
+								<li>Часы работы отдела продаж:</li>
+								<li>ежедневно: 09:00 – 22:00</li>
+							</ul>
+						</div>
+						<div class="contacts-sec__item">
+							<ul>
+								<li>Контакты:</li>
+								<li><a href="tel:79005555155" class="contacts-sec__phone">7 (900) 5555-155</a></li>
+								<li><a href="mailto:info@bestatmosfera.ru" class="contacts-sec__email">info@bestatmosfera.ru</a></li>
+							</ul>
+							<div class="contacts-sec__soc-block-icon soc-block-icon">
+								<a href="#" class="soc-block-icon-link soc-icon-1"></a>
+								<a href="#" class="soc-block-icon-link soc-icon-2"></a>
+								<a href="#" class="soc-block-icon-link soc-icon-3"></a>
+								<a href="#" class="soc-block-icon-link soc-icon-4"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</main>
+		@@include('_footer.html',{})
+	</div>
+	@@include('_popup.html',{})
+	@@include('_js.html',{})
+</body>
+
+</html>

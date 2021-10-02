@@ -138,7 +138,7 @@ h4 {
 		content: '';
 		float: left;
 		width: 161px;
-		height: 5px;
+		height: 1px;
 		background: #69A71A;
 		margin-top: 15px;
 	}
@@ -360,7 +360,7 @@ h4 {
 	z-index: 5;
 }
 
-.nuar_blk {
+.about__item .nuar_blk {
 	background-color: #00000065;
 }
 //===================================================================================================================================
@@ -496,6 +496,46 @@ h4 {
 .contacts-sec__soc-block-icon {
 	width: 215px;
 }
+//===================================================================================================================================
+
+// Структура общей верхней секции ========================================================================================
+.info-wrap-sec {
+	position: relative;
+	display: flex;
+	align-items: flex-end;
+	min-height: 640px;
+	padding: 93px 0;
+	background-position: center;
+	background-image: url('../img/index-bg.jpg');
+}
+
+.info-wrap-sec__nuar_blk {
+
+}
+
+.info-wrap-sec__container {
+	flex: 1 1 auto;
+	z-index: 5;
+}
+
+.info-wrap-sec__subtitle {
+	font-size: 28px;
+	line-height: 33.6px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.info-wrap-sec__btn {
+	min-width: 262.65px;
+	margin-top: 53px;
+}
+//===================================================================================================================================
+
+.stock-sec {
+	background-image: url('../img/stock-bg.jpg');
+}
+
+
 
 
 //</ОСНОВНОЙ БЛОК>====================================================================================================
