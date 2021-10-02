@@ -3344,6 +3344,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .recurring {
   padding-top: 45px;
+  padding-bottom: 32px;
 }
 
 .recurring h2 {
@@ -3449,13 +3450,13 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   padding: 80px 0 32px 0;
 }
 
-.about__row {
+.card-bg__row {
   position: relative;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.about__item {
+.card-bg-item {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -3466,10 +3467,27 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   text-align: center;
   margin-bottom: 5px;
 }
-.about__item p {
+.card-bg-item p {
   position: relative;
   z-index: 5;
   color: #fff;
+}
+
+.card-bg-item__title {
+  position: relative;
+  z-index: 5;
+  margin-bottom: 15px;
+}
+
+.card-bg-item .nuar_blk {
+  background-color: #00000065;
+}
+
+.about__title-center {
+  position: absolute;
+  top: 10%;
+  left: 37.5%;
+  z-index: 5;
 }
 
 .about__item:nth-child(2) {
@@ -3490,23 +3508,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .about__item:nth-child(5) {
   background-image: url("../img/about/04.jpg");
-}
-
-.about__title {
-  position: relative;
-  z-index: 5;
-  margin-bottom: 15px;
-}
-
-.about__title-center {
-  position: absolute;
-  top: 10%;
-  left: 37.5%;
-  z-index: 5;
-}
-
-.about__item .nuar_blk {
-  background-color: #00000065;
 }
 
 .team {
@@ -3661,6 +3662,30 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .stock-sec {
   background-image: url("../img/stock-bg.jpg");
+}
+
+.stock-bg-item:nth-child(1) {
+  background-image: url("../img/stock/01.jpg");
+}
+
+.stock-bg-item:nth-child(2) {
+  background-image: url("../img/stock/02.jpg");
+}
+
+.stock-bg-item:nth-child(3) {
+  background-image: url("../img/stock/03.jpg");
+}
+
+.stock-bg-item:nth-child(4) {
+  background-image: url("../img/stock/04.jpg");
+}
+
+.stock-bg-item:nth-child(5) {
+  background-image: url("../img/stock/05.jpg");
+}
+
+.stock-bg-item:nth-child(6) {
+  background-image: url("../img/stock/06.jpg");
 }
 
 @media (max-width: 1440px) {
