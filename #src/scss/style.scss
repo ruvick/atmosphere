@@ -561,7 +561,50 @@ h4 {
 	background-image: url('../img/club-bg.jpg');
 }
 
+.connection {
+	padding: 32px 0;
+}
 
+.connection__block {
+	max-width: 1253px;
+  width: 100%;
+  min-height: 363px;
+	position: relative;
+	padding: 38px 15px 48px 77px;
+	background: linear-gradient(-75deg, transparent 100px, #D2D1D1 0);
+}
+
+.connection__descp {
+	flex: 0 1 700px;
+	p {
+		max-width: 535px;
+		width: 100%;
+	}
+}
+
+.connection__btn-block {
+	margin-top: 35px;
+}
+
+.connection__btn-white {
+	min-width: 175px;
+	background: #fff;
+	border: 1px solid #69a71a;
+	margin-right: 54px;
+	color: #69A71A;
+}
+
+.connection__btn {}
+
+.connection__img {
+	position: absolute;
+  top: -14%;
+  right: -22.5%;
+  flex: 0 1 716px;
+  height: 477px;
+  overflow: hidden;
+}
+//===================================================================================================================================
 
 //</ОСНОВНОЙ БЛОК>====================================================================================================
 
