@@ -3688,6 +3688,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   background-image: url("../img/stock/06.jpg");
 }
 
+.club-sec {
+  background-image: url("../img/club-bg.jpg");
+}
+
 @media (max-width: 1440px) {
   ._container {
     padding: 0 10px;
