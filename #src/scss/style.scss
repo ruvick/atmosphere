@@ -515,6 +515,13 @@ h4 {
 .contacts-sec__soc-block-icon {
 	width: 215px;
 }
+
+.contacts-sec__item {
+	margin-right: 10px;
+}
+.contacts-sec__item:last-child {
+	margin-right: 0;
+}
 //===================================================================================================================================
 
 .stock-sec {

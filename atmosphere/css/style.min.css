@@ -3682,6 +3682,14 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   width: 215px;
 }
 
+.contacts-sec__item {
+  margin-right: 10px;
+}
+
+.contacts-sec__item:last-child {
+  margin-right: 0;
+}
+
 .stock-sec {
   background-image: url("../img/stock-bg.jpg");
 }
@@ -4149,6 +4157,28 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   .team-card__img img {
     object-fit: fill;
   }
+
+  .contacts-sec__item ul li:first-child {
+    margin-bottom: 10px;
+  }
+
+  .contacts-sec__item ul li {
+    font-size: 16px;
+  }
+
+  .contacts-sec__phone {
+    font-size: 18px;
+    line-height: 1;
+    margin-bottom: 5px;
+  }
+
+  .contacts-sec__item ul {
+    margin-bottom: 15px;
+  }
+
+  .contacts-sec__soc-block-icon {
+    width: 180px;
+  }
 }
 @media (max-width: 940px) {
   .header__logo {
@@ -4259,6 +4289,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
   .page {
     padding-top: 35px;
+    padding-bottom: 25px;
   }
 
   .info-index {
@@ -4387,6 +4418,28 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     font-size: 13px;
     line-height: 1;
   }
+
+  .contacts-sec__map {
+    height: 280px;
+    margin-bottom: 25px;
+  }
+
+  .contacts-sec__row {
+    flex-wrap: wrap;
+  }
+
+  .contacts-sec__item ul li {
+    font-size: 14px;
+    line-height: 1.3;
+  }
+
+  .contacts-sec__soc-block-icon {
+    width: 130px;
+  }
+
+  .contacts-sec__item ul li:first-child {
+    margin-bottom: 5px;
+  }
 }
 @media (max-width: 700px) {
   .mob-menu {
@@ -4486,6 +4539,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   .card-bg-item .nuar_blk {
     background-color: #00000095;
   }
+
+  .contacts-sec__item {
+    flex: 0 1 35%;
+    margin-right: 0;
+  }
 }
 @media (max-width: 480px) {
   .team-card__body {
@@ -4498,6 +4556,20 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
   .team-card__body h3 {
     font-size: 16px;
+  }
+}
+@media (max-width: 460px) {
+  .contacts-sec__row {
+    justify-content: center;
+  }
+
+  .contacts-sec__item {
+    flex: 0 1 100%;
+    text-align: center;
+  }
+
+  .contacts-sec__soc-block-icon {
+    margin: 0 auto;
   }
 }
 @media (max-width: 440px) {
