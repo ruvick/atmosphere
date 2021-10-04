@@ -508,33 +508,30 @@ h4 {
 //===================================================================================================================================
 
 // Структура общей верхней секции ========================================================================================
-.info-wrap-sec {
+.banner-bg {
 	position: relative;
 	display: flex;
 	align-items: flex-end;
 	min-height: 640px;
 	padding: 93px 0;
+	background-size: cover;
+  background-repeat: no-repeat;
 	background-position: bottom center;
 	background-image: url('../img/index-bg.jpg');
 }
-
-.info-wrap-sec__nuar_blk {
-
-}
-
-.info-wrap-sec__container {
+.banner-bg__container {
 	flex: 1 1 auto;
 	z-index: 5;
 }
 
-.info-wrap-sec__subtitle {
+.banner-bg__subtitle {
 	font-size: 28px;
 	line-height: 33.6px;
 	font-weight: 700;
 	color: #fff;
 }
 
-.info-wrap-sec__btn {
+.banner-bg__btn {
 	min-width: 262.65px;
 	margin-top: 53px;
 }
