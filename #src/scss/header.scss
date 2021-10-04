@@ -52,22 +52,26 @@
 	}
 }
 .header__contacts {
-	flex: 0 0 180px;
+	flex: 0 0 200px;
 	flex-direction: column;
 }
 .header__phone {
+	// display: block;
+	display: flex;
+	align-items: center;
 	font-family: 'MyriadPro';
 	font-size: 20px;
 	font-weight: 400;
 	line-height: 24px;
 	color: #fff;
-	display: flex;
-	align-items: center;
+	// white-space: nowrap;
 		&:before {
-			content: '';
+			content: "";
 			float: left;
-			flex: 0 0 12.43px;
+			// flex: 0 0 12.43px;
+			width: 12.43px;
 			height: 15.56px;
+			margin-top: 6px;
 			margin-right: 12px;
 			background-size: 100%;
 			background-position: 0 0;

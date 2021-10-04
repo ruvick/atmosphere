@@ -300,6 +300,7 @@ h4 {
 	align-items: center;
   width: 31px;
   height: 180px;
+	z-index: 5;
 }
 //===================================================================================================================================
 
@@ -504,36 +505,6 @@ h4 {
 
 .contacts-sec__soc-block-icon {
 	width: 215px;
-}
-//===================================================================================================================================
-
-// Структура общей верхней секции ========================================================================================
-.banner-bg {
-	position: relative;
-	display: flex;
-	align-items: flex-end;
-	min-height: 640px;
-	padding: 93px 0;
-	background-size: cover;
-  background-repeat: no-repeat;
-	background-position: bottom center;
-	background-image: url('../img/index-bg.jpg');
-}
-.banner-bg__container {
-	flex: 1 1 auto;
-	z-index: 5;
-}
-
-.banner-bg__subtitle {
-	font-size: 28px;
-	line-height: 33.6px;
-	font-weight: 700;
-	color: #fff;
-}
-
-.banner-bg__btn {
-	min-width: 262.65px;
-	margin-top: 53px;
 }
 //===================================================================================================================================
 

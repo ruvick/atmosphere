@@ -3057,24 +3057,25 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .header__contacts {
-  flex: 0 0 180px;
+  flex: 0 0 200px;
   flex-direction: column;
 }
 
 .header__phone {
+  display: flex;
+  align-items: center;
   font-family: "MyriadPro";
   font-size: 20px;
   font-weight: 400;
   line-height: 24px;
   color: #fff;
-  display: flex;
-  align-items: center;
 }
 .header__phone:before {
   content: "";
   float: left;
-  flex: 0 0 12.43px;
+  width: 12.43px;
   height: 15.56px;
+  margin-top: 6px;
   margin-right: 12px;
   background-size: 100%;
   background-position: 0 0;
@@ -3342,6 +3343,35 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   margin-right: 0;
 }
 
+.banner-bg {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  min-height: 640px;
+  padding: 93px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-image: url("../img/index-bg.jpg");
+}
+
+.banner-bg__container {
+  flex: 1 1 auto;
+  z-index: 5;
+}
+
+.banner-bg__subtitle {
+  font-size: 28px;
+  line-height: 33.6px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.banner-bg__btn {
+  min-width: 262.65px;
+  margin-top: 53px;
+}
+
 .recurring {
   padding-top: 45px;
   padding-bottom: 32px;
@@ -3444,6 +3474,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   align-items: center;
   width: 31px;
   height: 180px;
+  z-index: 5;
 }
 
 .about {
@@ -3639,35 +3670,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .contacts-sec__soc-block-icon {
   width: 215px;
-}
-
-.banner-bg {
-  position: relative;
-  display: flex;
-  align-items: flex-end;
-  min-height: 640px;
-  padding: 93px 0;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  background-image: url("../img/index-bg.jpg");
-}
-
-.banner-bg__container {
-  flex: 1 1 auto;
-  z-index: 5;
-}
-
-.banner-bg__subtitle {
-  font-size: 28px;
-  line-height: 33.6px;
-  font-weight: 700;
-  color: #fff;
-}
-
-.banner-bg__btn {
-  min-width: 262.65px;
-  margin-top: 53px;
 }
 
 .stock-sec {
