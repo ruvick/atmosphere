@@ -3627,6 +3627,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .application__form p {
   font-size: 14px;
   line-height: 16.8px;
+  margin-top: 10px;
 }
 .application__form p:before {
   content: "*";
@@ -3635,12 +3636,25 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   margin-right: 10px;
 }
 
+.application__line {
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+}
 .application__line input {
   display: inline-block;
   max-width: 380px;
   width: 100%;
   margin-right: 36px;
   margin-bottom: 30px;
+}
+.application__line input:last-child {
+  margin-right: 0;
+}
+
+.application__line .form__error {
+  flex: 0 1 100%;
+  margin-top: 10px;
 }
 
 .contacts-sec {
@@ -4196,6 +4210,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   .header__phone:before {
     display: none;
   }
+
+  .application__line input {
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
 }
 @media (max-width: 812px) {
   .team-card__body {
@@ -4440,6 +4459,25 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   .contacts-sec__item ul li:first-child {
     margin-bottom: 5px;
   }
+
+  .title {
+    margin-bottom: 30px !important;
+  }
+
+  .title::after {
+    bottom: -10px;
+  }
+
+  .application__line input {
+    max-width: 280px;
+    height: 35px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+  }
+
+  .application__line .btn {
+    min-height: 35px;
+  }
 }
 @media (max-width: 700px) {
   .mob-menu {
@@ -4543,6 +4581,21 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   .contacts-sec__item {
     flex: 0 1 35%;
     margin-right: 0;
+  }
+
+  .application__line input {
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+
+  .application__line .btn {
+    width: 100%;
+  }
+
+  .application__form p:before {
+    height: 10px;
+    margin-right: 5px;
   }
 }
 @media (max-width: 480px) {

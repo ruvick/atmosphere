@@ -457,6 +457,7 @@ h4 {
 .application__form p {
 	font-size: 14px;
 	line-height: 16.8px;
+	margin-top: 10px;
 	&:before {
 	content: '*';
 	float: left;
@@ -466,14 +467,24 @@ h4 {
 }
 
 .application__line {
+	display: flex;
+	align-items: start;
+	flex-wrap: wrap;
 	input {
 		display: inline-block;
 		max-width: 380px;
 		width: 100%;
 		margin-right: 36px;
 		margin-bottom: 30px;
+		&:last-child {
+			margin-right: 0;
+		}
 	}
 }
+
+.application__line .form__error {
+	flex: 0 1 100%;
+	margin-top: 10px;}
 //===================================================================================================================================
 
 .contacts-sec {

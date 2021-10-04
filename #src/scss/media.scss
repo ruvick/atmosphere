@@ -98,6 +98,9 @@
 		flex: 0 0 135px;}
 	.header__phone:before {
 		display: none;}
+	.application__line input {
+		margin-right: 15px;
+		margin-bottom: 15px;}
 }
 
 @media (max-width: 812px) {
@@ -241,6 +244,17 @@
 		width: 130px;}
 	.contacts-sec__item ul li:first-child {
 		margin-bottom: 5px;}
+	.title {
+		margin-bottom: 30px !important;}
+	.title::after {
+		bottom: -10px;}
+	.application__line input {
+		max-width: 280px;
+		height: 35px;
+		margin-right: 10px;
+		margin-bottom: 15px;}
+	.application__line .btn {
+		min-height: 35px;}
 }
 
 @media (max-width: 700px) {
@@ -311,6 +325,15 @@
 	.contacts-sec__item {
 		flex: 0 1 35%;
 		margin-right: 0;}
+	.application__line input {
+		max-width: 100%;
+		margin-right: 0;
+		margin-bottom: 8px;}
+	.application__line .btn {
+		width: 100%;}
+	.application__form p:before {
+		height: 10px;
+		margin-right: 5px;}
 }
 
 @media (max-width: 480px) {
