@@ -101,6 +101,13 @@
 	.application__line input {
 		margin-right: 15px;
 		margin-bottom: 15px;}
+	.club-cards-block__descp {
+		padding: 33px 30px 0px 30px;}
+	.club-cards-block__btn {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		padding: 0 30px;}
 }
 
 @media (max-width: 812px) {
@@ -255,6 +262,29 @@
 		margin-bottom: 15px;}
 	.application__line .btn {
 		min-height: 35px;}
+	.club-cards-block__img {
+		height: 200px;}
+	.club-cards-block__descp {
+		padding: 15px 15px 0px 15px;}
+	.club-cards-block__btn {
+		padding: 0 15px;
+		margin-top: 20px;}
+	.club-cards-block__item {
+		padding-bottom: 25px;}
+	.club-cards-block__subtitle {
+		font-size: 14px;
+    line-height: 1.5;} 
+	.club-cards-block__title {
+		font-size: 20px;}
+	.club-cards-block__title::after {
+		bottom: -5px;}
+	.club-cards-block__btn-link-white {
+		min-height: 33px;
+    height: 33px;
+		margin-right: 10px;}
+	.club-cards-block__btn-link {
+		min-height: 33px;
+    height: 33px;}
 }
 
 @media (max-width: 700px) {
@@ -264,6 +294,15 @@
 		-webkit-transition: right 0.8s;
 		-o-transition: right 0.8s;
 		transition: right 0.8s; }
+}
+
+@media (max-width: 660px) {
+	.club-cards-block__btn-link-white {
+		width: 100%;
+    margin-right: 0;
+		margin-bottom: 10px;}
+	.club-cards-block__btn-link {
+		width: 100%;}
 }
 
 @media (max-width: 630px) {
@@ -334,6 +373,8 @@
 	.application__form p:before {
 		height: 10px;
 		margin-right: 5px;}
+	.club-cards-block__item {
+			flex: 0 1 100%;}
 }
 
 @media (max-width: 480px) {
