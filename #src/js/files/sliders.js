@@ -73,7 +73,7 @@ let slider = new Swiper('.slider-team', {
 	observeParents: true,
 	slidesPerView: 4,
 	spaceBetween: 0,
-	// autoHeight: true,
+	autoHeight: true,
 	speed: 2000,
 	// touchRatio: 0,
 	// simulateTouch: false,

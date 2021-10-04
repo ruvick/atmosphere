@@ -1,4 +1,11 @@
 //<Адаптив>===========================================================================================================================================
+@media (max-width: 1500px) {
+	.swiper-button-next {
+		left: 2%;}
+	.swiper-button-prev {
+		right: 2%;}
+}
+
 @media (max-width: 1460px) {
 	._container {
 		padding: 0 10px;}
@@ -56,6 +63,18 @@
 		margin-top: 0px;}
 	.about__title-center {
 		left: 33%;}
+	.team-card__body h3 {
+		font-size: 26px;
+		line-height: 1;}
+	.team-card__text {
+		padding: 15px 10px 0 10px;}
+	.team-card__body h3:after {
+		margin-top: 15px;
+		margin-bottom: 15px;}
+	.team-card__img {
+		max-height: 300px;}
+	.team-card__img img {
+		object-fit: fill;}
 }
 
 @media (max-width: 940px) {
@@ -67,6 +86,11 @@
 		flex: 0 0 135px;}
 	.header__phone:before {
 		display: none;}
+}
+
+@media (max-width: 812px) {
+	.team-card__body {
+		flex: 0 1 30%;}
 }
 
 @media (max-width: 768px) { 
@@ -177,6 +201,21 @@
 		padding-top: 65px;}
 	.about__item:nth-child(3) {
 		padding-top: 65px;}
+	.team-card__body {
+		flex: 0 1 25%;
+		margin: 0;}
+	.team-card__img {
+		max-height: 250px;}
+	.swiper-button {
+		display: none;}
+	.team-card__body h3 {
+		font-size: 20px;}
+	.team-card__body h3:after {
+		margin-top: 8px;
+		margin-bottom: 8px;}
+	.team p {
+		font-size: 13px;
+		line-height: 1;}
 }
 
 @media (max-width: 700px) {
@@ -188,11 +227,21 @@
 		transition: right 0.8s; }
 }
 
+@media (max-width: 630px) {
+	.team-card__body {
+		flex: 0 1 30%;}
+}
+
 @media (max-width: 612px) {
 	.popup__img {
     flex: 0 1 43%;}
 	.popup__form-block {
 		padding: 35px 15px;}
+}
+
+@media (max-width: 660px) {
+	.team-card__body {
+		flex: 0 1 36%;}
 }
 
 @media (max-width: 515px) {
@@ -237,24 +286,12 @@
 }
 
 @media (max-width: 480px) {
-	.header__search {
-    display: none;
-	}
-	.mob-search {
-    display: flex;
-	}
-	.header__search.active {
-    display: block;
-    position: absolute;
-    top: 50px;
-    left: 0;
-    max-width: 100%;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
-    margin: 0;
-	}
-	.search__input {
-    border-radius: 0 !important;
-	}
+	.team-card__body {
+		flex: 0 1 35%;}
+	.team-card__img {
+		max-height: 200px;}
+	.team-card__body h3 {
+		font-size: 16px;}
 }
 
 @media (max-width: 440px) {
@@ -262,9 +299,18 @@
 		left: 28%;}
 }
 
+@media (max-width: 414px) {
+	.team-card__body {
+		flex: 0 1 43%;}
+}
+
 @media (max-width: 340px) {	
 	.header__phone {
 		font-size: 16px;}
 	.about__title-center {
 		left: 25%;}
+	.team-card__body {
+		flex: 0 1 48%;}
+	.team-card__img {
+		max-height: 180px;}
 }
