@@ -135,7 +135,7 @@ let sliderStock = new Swiper('.stock-slider', {
 	observeParents: true,
 	slidesPerView: 2,
 	spaceBetween: 0,
-	// autoHeight: true,
+	autoHeight: true,
 	speed: 2000,
 	// touchRatio: 0,
 	// simulateTouch: false,
