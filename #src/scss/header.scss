@@ -94,7 +94,11 @@
 	margin-bottom: 5px;
 }
 .header__popup-link {
-	font-size: 12px;
+	min-width: 163px;
+	min-height: 34px;
+  background: #272a2d;
+  border: 1px solid #fff;
+  margin-top: 12px;
 }
 
 // Стиль иконки бургера

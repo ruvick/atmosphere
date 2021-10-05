@@ -31,3 +31,32 @@
 .recurring h2 {
   margin-bottom: 55px;}
 //=============================================================================================================================
+
+// Структура карточек картинки с текстом =============================================================
+.card-bg__row {
+	position: relative;
+	justify-content: space-between;
+	flex-wrap: wrap;}
+.card-bg-item {
+	position: relative;
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 54px 116px;
+	flex: 0 1 49.8%;
+	min-height: 370px;
+	text-align: center;
+	margin-bottom: 5px;
+	p {
+		position: relative;
+		z-index: 5;
+		color: #fff;
+	}
+}
+.card-bg-item__title {
+	position: relative;
+	z-index: 5;
+	margin-bottom: 15px;}
+.card-bg-item .nuar_blk {
+	background-color: #00000065;}
+// ======================================================================================================================

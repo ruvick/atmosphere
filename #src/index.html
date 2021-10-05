@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 @@include('_head.html',{
-"title":"Главная"
+	"title":"Главная"
 })
 
 <body>
@@ -19,7 +19,7 @@
 					</h4>
 					<div class="info-index__btn-block d-flex">
 						<a href="#callback" class="info-index__btn _popup-link btn">Связаться с менеджером</a>
-						<a href="club-cards.html" class="info-index__btn btn">#В честь открытия скидка на <br> клубные карты</a>
+						<a href="club-cards.html" class="info-index__btn-text btn">#В честь открытия скидка на <br> клубные карты</a>
 					</div>
 				</div>
 				<div class="info-index__soc-block-icon soc-block-icon">
@@ -37,37 +37,63 @@
 						время эффективно и комфортно
 					</h1>
 					<div class="card-bg__row d-flex">
-						<h2 class="about__title-center title-block">Fitness zone</h2>
-						<div class="about__item card-bg-item _bgi">
-							<div class="nuar_blk"></div>
-							<p>
-								Сердце любого клуба –тренажерный зал с силовыми, кардиотренажерами, а так же зонами свободных весов,
-								зона растяжки.
-								В нашем клубе представлено самое современное и высокотехнологичное оборудование!
-							</p>
+						<div class="about__title-center">
+							<h2 class="title-block">Fitness zone</h2>
+							<p class="about__item__subtitle">Более 2000 м² Фитнеса</p>
 						</div>
 						<div class="about__item card-bg-item _bgi">
 							<div class="nuar_blk"></div>
-							<p>
-								В клубе представлено огромное количество групповых направлений, от общественно известных до уникальных.
-								Большинство групповых занятий бесплатны – просто зайди в раздел с расписанием и выберите подходящее
-								именно Вам!
-							</p>
-						</div>
-						<div class=" about__item card-bg-item _bgi">
-							<div class="nuar_blk"></div>
-							<h2 class="card-bg-item__title title-block">Beauty zone</h2>
-							<p>
-								Сауна, спа-услуги, услуги парикмахера, массажиста, бровиста, визажиста, аппаратная косметология,
-								солярий, маникюр-педикюр и многое другое
-							</p>
+							<div class="about__list-block about__list-block-left d-flex">
+								<ul>
+									<li>Холодные спортивные напитки</li>
+									<li>Горячие спортивные напитки</li>
+									<li>Завтраки</li>
+								</ul>
+							</div>
 						</div>
 						<div class="about__item card-bg-item _bgi">
 							<div class="nuar_blk"></div>
-							<h2 class="card-bg-item__title title-block">Cafe zone</h2>
-							<p>
-								Наше фитнес-кафе поможет Вам утолить чувство голода. У нас самые свежие и полезные продукты
-							</p>
+							<div class="about__list-block about__list-block-right d-flex">
+								<ul>
+									<li>Холодные спортивные напитки</li>
+									<li>Горячие спортивные напитки</li>
+									<li>Завтраки</li>
+								</ul>
+							</div>
+						</div>
+						<div class="about__item card-bg-item _bgi">
+							<div class="nuar_blk"></div>
+							<h2 class="about__bg-item__title card-bg-item__title title-block">Beauty zone</h2>
+							<p class="about__item__subtitle">Более 400м²</p>
+							<div class="about__list-block d-flex">
+								<ul>
+									<li>Косметология</li>
+									<li>Парикмахерские</li>
+									<li>SPA для двоих</li>
+									<li>Коллариум</li>
+								</ul>
+								<ul>
+									<li>Массаж</li>
+									<li>Ногтевой сервс</li>
+									<li>Аромосауны</li>
+									<li>Бутик косметики</li>
+								</ul>
+							</div>
+						</div>
+						<div class="about__item card-bg-item _bgi">
+							<div class="nuar_blk"></div>
+							<h2 class="about__bg-item__title card-bg-item__title title-block">Cafe zone</h2>
+							<p class="about__item__subtitle">Более 400м²</p>
+							<div class="about__list-block d-flex">
+								<ul>
+									<li>Холодные спортивные напитки</li>
+									<li>Горячие спортивные напитки</li>
+								</ul>
+								<ul>
+									<li>Завтраки</li>
+									<li>Перекусы</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -186,9 +212,9 @@
 					<form action="#" class="application__form form">
 						<div class="application__line form__line">
 							<input id="name" autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="Имя"
-								class="input _req">
+							class="input _req">
 							<input id="tel2" autocomplete="off" type="text" name="form[]" data-error="Ошибка" data-value="Телефон"
-								class="input _phone _req">
+							class="input _phone _req">
 							<button type="submit" class="form__btn btn">Подробнее</button>
 						</div>
 						<p>
