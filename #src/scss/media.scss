@@ -46,6 +46,11 @@
 		flex: 0 1 24.5%;}
 	.advant-sec__item {
 		background-position: 50% 50%;}
+	.about h1 {
+		font-size: 33px;
+    margin-bottom: 35px;}
+  .about h1 br {
+		display: none;}
 }
 
 @media (max-width: 1150px) {
@@ -114,6 +119,12 @@
 		width: 180px;}
 	.advant-sec__item {
 		min-height: 410px;}
+	.header__popup-link {
+    min-width: 140px;
+    min-height: 30px;
+    height: 30px;
+    font-size: 15px;
+    margin-top: 5px;}
 }
 
 @media (max-width: 960px) {
@@ -144,6 +155,12 @@
 		margin-bottom: 10px;}
 	.connection__line input {
 		margin-bottom: 10px;}
+	.header__popup-link {
+    min-width: 125px;
+    min-height: 25px;
+    height: 25px;
+    font-size: 13px;
+    margin-top: 3px;}
 }
 
 @media (max-width: 910px) {
@@ -229,7 +246,7 @@
 	.info-index h4 {
 		font-size: 23px;}
 	.info-index__btn {
-		margin-top: 25px;}
+		margin-top: 15px;}
 	.info-index__soc-block-icon {
 		top: 28%;
     right: 10px;
@@ -387,6 +404,16 @@
 		margin-bottom: 10px;}
 	.photo-gallery-sec__item-img {
 		height: auto;}
+	.about h1 {
+		font-size: 20px !important;
+		line-height: 1;
+    margin-bottom: 15px;}
+  .info-index__btn-block {
+    flex-direction: column-reverse;
+    margin-top: 20px;}
+  .info-index__btn-text {
+    font-size: 17px;
+    padding: 15px;}
 }
 
 @media (max-width: 700px) {
