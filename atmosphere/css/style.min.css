@@ -4485,6 +4485,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
   .header__popup-link_mob {
     display: flex;
+    width: 165px;
+    height: 30px;
     margin-left: 0;
   }
 
@@ -5144,6 +5146,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
   .connection__form {
     margin: 0 -15px;
+  }
+
+  .popup__form-btn {
+    width: 100%;
   }
 }
 @media (max-width: 440px) {

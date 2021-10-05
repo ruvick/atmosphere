@@ -241,6 +241,8 @@
   	display: none;}
   .header__popup-link_mob {
   	display: flex;
+  	width: 165px;
+    height: 30px;
   	margin-left: 0;}
 	section {
 		padding: 20px 0 !important;}
@@ -635,6 +637,8 @@
 		min-width: 100%;}
 	.connection__form {
 		margin: 0 -15px;}
+	.popup__form-btn {
+    width: 100%;}
 }
 
 @media (max-width: 440px) {
